@@ -8,7 +8,11 @@
 import scrapy
 
 
-class TestAssignmentItem(scrapy.Item):
+class QuokaItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    url = scrapy.Field()
+    href = scrapy.Field()
+    # obid = scrapy.Field()
+    # anbieter_ID = scrapy.Field()
+    # stadt = scrapy.Field()
+    # plz = scrapy.Field()
